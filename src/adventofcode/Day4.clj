@@ -1,7 +1,6 @@
 (ns adventofcode.Day4
   (:require [clojure.string :as string]
-            [clojure.java.io :as io])
-  (:refer-clojure :exclude [boolean? ex-cause ex-message uuid uuid? random-uuid]))
+            [clojure.java.io :as io]))
 
 (def input (->>
              (io/resource "data3")
